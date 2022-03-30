@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #80808088;
+}
+/*   Variables...*/
+
+:root{
+    --primary-color:#A1C0E5;
+    --secondary-color:#C2C2C2;
+}
+
+/* Cuerpo Principal de la Pagina */
+
+.navegacion{
+    display: flex;
+    position: fixed;
+    width: 99%;
+    height: 60px;
+    z-index: 1;
+    margin: -1.1rem;
+    margin-left: 0.6rem;
+    background-color: var(--primary-color);
+    opacity: 90%;
+}
+.navegacion img{
+    margin-left: 15px;
+    width: 75%;
+}
+.link{
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.link a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image{
+    
+    float: left;
+    width: 30px;
+    margin-left: 30px;
+}
+main{
+    margin-top: 18px;
+    background-color: #80808088;
+}
+.carousel-inner div{
+    margin-top: 50px;
+}
+.btn_btn_primary{
+    color: #0386b9;
+    background-color: transparent;
+    border: 0px;
+}
+
+/* cuerpo tarjetas miniaturas */
+
+
+.peliculas {
+    width: 75%;
+    margin: 18px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem;
+}
+.card h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-body{
+    background-color: #a1c0e5a1;
+}
+.card-text{
+    font-size: 15px;
+    text-align:justify;
+}
+
+
+/* formulario Modal*/
+
+.modal-header{
+    background-color: #b1a4c096;
+}
+.modal-header h5{
+    margin-left: auto;
+
+}
+.modal-body{
+    background-color: #b1a4c096;
+}
+.titulo{
+    width: 100%;
+    margin: auto;
+}
+.titulo h5{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cuerpoFormulario{
+    border: 2px solid #40798f69;
+    background-color: #a9becc;
+    box-shadow: 10px 10px 50px 15px #40798f9c;
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+.form{
+    margin: auto;
+    width: 90%;
+}
+.form input{
+    width: 65%;
+    float: right;
+    border: 1px solid #40788f70;
+}
+.form label{
+    margin-top: 10px;
+}
+.texto textarea{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #40788f70;
+}
+.botonEnviar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botonEnviar button{
+    color: white;
+    background-color: #0386b9;
+    border: 2px solid #006a9496;
+    padding: 2.5px 45px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
